@@ -10,6 +10,7 @@
       %th More Info
   %tbody
   
+  .ratings_form
   = form_tag movies_path, :method => :get do
     Include:
     - @all_ratings.each do |rating|
